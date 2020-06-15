@@ -37,7 +37,7 @@ Simply add a dependency `nmred/kafka-php` to your project if you use Composer to
 ```
 {
 	"require": {
-		"nmred/kafka-php": "0.2.*"
+		"adaddad/kafka-php": "0.2.*"
 	}
 }
 ```

@@ -542,7 +542,7 @@ class Process
                     break 2;
                 }
 
-                $offsets[$topic['topicName']][$part['partition']] = $part['offset'];
+                $offsets[$topic['topicName']][$part['partition']] = $part['offset']-1;
             }
         }
 
